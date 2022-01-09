@@ -81,7 +81,7 @@ def editar_contacto():
         nombre_a_editar = str(input(
             "Escribe el nombre de la persona:\n"))
         if nombre_a_editar not in agenda:
-            a = int(input("No tienes a ese contacto en la agenda.\nQuieres añadirlo? (1=sí)"))
+            a = int(input("No tienes a ese contacto en la agenda.\n¿Quieres añadirlo? (1=sí)"))
             if a == 1:
                 nuevo_contacto()
 
